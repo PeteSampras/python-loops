@@ -63,10 +63,16 @@ while car in cars:
 #DO NOT use numbers in your string.
 
 cyber_attacks = ['Wannacry', 'Petya', 'Locky', 'Krack Attack', 'Sambacry']
-
+for i in range(len(cyber_attacks)):
+    print(f'The attack at {i} is {cyber_attacks[i]}')
 
 #7 Even
 # Declare a variable named even_list and assign it an empty list. Next, write a for loop that will place 25 even numbers starting from 0 into the even_list list. Print the even_list variable to see your results. 
+even_list = []
+for i in range(0,51,2):
+    even_list.append(i)
+
+print(even_list)
 
 
 #8 Sum Up
