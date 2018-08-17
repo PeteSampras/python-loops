@@ -123,6 +123,19 @@ for code in zip_codes:
 #  b) if the number is a multiple of 5, it should print 'Buzz'
 #  c) if the number is a multiple of 3 and 5, it should print 'Fizz Buzz'
 #  d) if the number is neither a multiple of 3 and 5, it should print the number
+for i in range(1,101):
+    if i%3 ==0 and i%5==0:
+        print('Fizz Buzz')
+        continue
+    elif i%3==0:
+        print('Fizz')
+        continue
+    elif i%5==0:
+        print('Buzz')
+        continue
+    else:
+        print(i)
+
 
 #example output:
 # 1
@@ -135,8 +148,24 @@ for code in zip_codes:
 # ...
 # 14
 # Fizz Buzz
-
+print('last question')
 
 #13 Fizz Buzz Again 
 #Do the same thing again using a while loop.
-
+i = 1
+while i <= 100:
+    if i%3 ==0 and i%5==0:
+        print('Fizz Buzz')
+        i+=1
+        continue
+    elif i%3==0:
+        print('Fizz')
+        i+=1
+        continue
+    elif i%5==0:
+        print('Buzz')
+        i+=1
+        continue
+    else:
+        print(i)
+        i+=1
