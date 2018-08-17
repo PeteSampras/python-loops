@@ -5,6 +5,8 @@
 
 #1 Order Up
 #Create a for loop that will iterate through 8 numbers starting from 1 and print the following:
+for i in (range(1,9)):
+    print(f"Number {i}, your order is ready")
 #'Number 1, your order is ready.'
 #'Number 2, your order is ready.'
 # ...
