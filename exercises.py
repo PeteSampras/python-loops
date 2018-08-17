@@ -17,6 +17,8 @@ for i in (range(1,9)):
 
 #2 Now Serving
 #Create a while loop that will print the following message:
+for i in range(1,6):
+    print(f"Now server number {i}")
 #'Now serving number 1.'
 #'Now serving number 2.'
 # ...
@@ -35,16 +37,22 @@ for i in (range(1,9)):
 # ...
 # ...
 # 9 x 3 = 27
-
+for i in range(1,10):
+    val = i * 3
+    print(f'{i} x 3 = {val}')
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
 
-
+cars = ['Lamborghini','Porsche','Ferrari','Bugatti','MacLaren']
+for car in cars:
+    print(f'My next car will be a red {car}')
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
-
-    
+while car in cars:
+    if car == 'MacLaren':
+        break
+    print(f'My next car will be a red {car}')
 #6  No More Tears
 # Create a for loop that will iterate through the cyber attacks list and prints the following: 
 #The attack at 0 is Wannacry.
